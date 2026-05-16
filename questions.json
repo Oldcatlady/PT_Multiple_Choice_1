@@ -11,7 +11,7 @@
     "explanation": "Eine Deklaration beschreibt das Erstellen einer Variable mit Typ und Namen, ohne zwingend einen Wert zu setzen."
   },
   {
-    "question": "Welcher Fachbegriff beschreibt das Übergeben eines Wertes an eine Variable in Java?",
+    "question": "Welcher Fachbegriff beschreibt das Übergeben eines Wertes an eine bereits initialisierte Variable in Java?",
     "options": {
       "A": "Deklaration",
       "B": "Initialisierung",
@@ -24,12 +24,12 @@
   {
     "question": "Welche der folgenden Gruppen enthält ausschließlich Schleifenarten in Java?",
     "options": {
-      "A": "for, while, do-while",
-      "B": "if, switch, case",
+      "A": "if, switch, case",
+      "B": "for, while, do-while",
       "C": "try, catch, finally",
       "D": "class, method, object"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "In Java gibt es for-, while- und do-while-Schleifen als grundlegende Schleifenarten."
   },
   {
@@ -57,23 +57,23 @@
   {
     "question": "Welche Syntax beschreibt korrekt eine if-else-if-Verzweigung?",
     "options": {
-      "A": "if(x > 10) { } else if(x > 5) { } else { }",
+      "A": "switch(x) { if > 10: ... }",
       "B": "if x > 10 then else x > 5 else end",
-      "C": "switch(x) { if > 10: ... }",
+      "C": "if(x > 10) { } else if(x > 5) { } else { }",
       "D": "if(x > 10) { } elseif x > 5 { } endif"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Die if-else-if-Kette prüft mehrere Bedingungen nacheinander."
   },
   {
     "question": "Welche Kombination beschreibt korrekt drei Java-Datentypen mit passenden Beispielen?",
     "options": {
-      "A": "int x = 5; double y = 3.14; String s = \"Hallo\";",
+      "A": "var x = \"5\"; var y = true; var s = 3",
       "B": "integer x = 5; float y = \"3.14\"; char s = 10;",
       "C": "num x = 5; dec y = 3.14; text s = Hallo;",
-      "D": "var x = \"5\"; var y = true; var s = 3"
+      "D": "int x = 5; double y = 3.14; String s = \"Hallo\";"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "int, double und String sind grundlegende Java-Datentypen mit klaren Beispielen."
   },
   {
@@ -90,12 +90,12 @@
   {
     "question": "Was ist der Unterschied zwischen Interpreter und Compiler?",
     "options": {
-      "A": "Ein Compiler übersetzt komplett vor Ausführung, ein Interpreter Schritt für Schritt zur Laufzeit",
+      "A": "Beide führen Code nur im Browser aus",
       "B": "Ein Interpreter kompiliert den Code dauerhaft in eine EXE-Datei",
-      "C": "Beide führen Code nur im Browser aus",
+      "C": "Ein Compiler übersetzt komplett vor Ausführung, ein Interpreter Schritt für Schritt zur Laufzeit",
       "D": "Ein Compiler wird nur für JavaScript verwendet"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Compiler übersetzen den gesamten Code vorher, Interpreter arbeiten zeilenweise."
   },
   {
@@ -112,10 +112,10 @@
   {
     "question": "Welche drei Vergleichsoperatoren sind in Java korrekt?",
     "options": {
-      "A": "==, !=, <",
+      "A": "int, double, String",
       "B": "&&, ||, !",
       "C": "= += -=",
-      "D": "int, double, String"
+      "D": "==, !=, <"
     },
     "correctAnswer": "A",
     "explanation": "Vergleichsoperatoren prüfen Werte, z. B. Gleichheit oder Größe."
@@ -123,9 +123,9 @@
   {
     "question": "Was ist beim Benennen von Variablen und Methoden in Java zu beachten?",
     "options": {
-      "A": "Namen dürfen nicht mit Zahlen beginnen und keine reservierten Wörter enthalten",
+      "A": "Namen dürfen beliebige Sonderzeichen enthalten",
       "B": "Namen müssen immer Großbuchstaben enthalten",
-      "C": "Namen dürfen beliebige Sonderzeichen enthalten",
+      "C": "Namen dürfen nicht mit Zahlen beginnen und keine reservierten Wörter enthalten",
       "D": "Namen müssen immer mit einem Unterstrich beginnen"
     },
     "correctAnswer": "A",
@@ -134,12 +134,12 @@
   {
     "question": "Was ist der Unterschied zwischen Array und ArrayList?",
     "options": {
-      "A": "Arrays haben feste Größe, ArrayLists sind dynamisch veränderbar",
-      "B": "Arrays sind nur für Strings, ArrayLists nur für Zahlen",
+      "A": "Arrays sind nur für Strings, ArrayLists nur für Zahlen",
+      "B": "Arrays haben feste Größe, ArrayLists sind dynamisch veränderbar",
       "C": "ArrayLists haben feste Größe, Arrays sind dynamisch",
       "D": "Beide sind identisch in ihrer Speicherstruktur"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Arrays sind statisch, ArrayLists können wachsen und schrumpfen."
   },
   {
@@ -156,12 +156,12 @@
   {
     "question": "Welche zwei Arten von Kommentaren gibt es in Java?",
     "options": {
-      "A": "// und /* */",
+      "A": "# und /** */",
       "B": "<!-- --> und ##",
-      "C": "# und /** */",
+      "C": "// und /* */",
       "D": "%% und //"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "In Java gibt es einzeilige und mehrzeilige Kommentare."
   },
   {
