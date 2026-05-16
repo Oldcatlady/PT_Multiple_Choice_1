@@ -1,0 +1,178 @@
+[
+  {
+    "question": "Was versteht man in Java unter einer Variablendeklaration?",
+    "options": {
+      "A": "Das Anlegen einer Variablen mit einem Datentyp und Namen, ohne zwingend einen Wert zuzuweisen",
+      "B": "Das Zuweisen eines konkreten Wertes an eine bereits existierende Variable",
+      "C": "Das Ausführen einer Methode innerhalb einer Klasse zur Laufzeit",
+      "D": "Das Einlesen einer Benutzereingabe über die Konsole"
+    },
+    "correctAnswer": "A",
+    "explanation": "Eine Deklaration beschreibt das Erstellen einer Variable mit Typ und Namen, ohne zwingend einen Wert zu setzen."
+  },
+  {
+    "question": "Welcher Fachbegriff beschreibt das Übergeben eines Wertes an eine Variable in Java?",
+    "options": {
+      "A": "Deklaration",
+      "B": "Initialisierung",
+      "C": "Zuweisung",
+      "D": "Iteration"
+    },
+    "correctAnswer": "C",
+    "explanation": "Die Zuweisung beschreibt das Setzen eines Wertes in eine bestehende Variable."
+  },
+  {
+    "question": "Welche der folgenden Gruppen enthält ausschließlich Schleifenarten in Java?",
+    "options": {
+      "A": "for, while, do-while",
+      "B": "if, switch, case",
+      "C": "try, catch, finally",
+      "D": "class, method, object"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Java gibt es for-, while- und do-while-Schleifen als grundlegende Schleifenarten."
+  },
+  {
+    "question": "Welche Syntax entspricht korrekt einer for-Schleife in Java?",
+    "options": {
+      "A": "for(int i = 0; i < 10; i++) { System.out.println(i); }",
+      "B": "for i = 0 to 10 { print(i); }",
+      "C": "loop(int i = 0; i < 10) { System.out.println(i); }",
+      "D": "foreach(int i = 0; i < 10; i++) { System.out.println(i); }"
+    },
+    "correctAnswer": "A",
+    "explanation": "Die Java-for-Schleife besteht aus Initialisierung, Bedingung und Iteration im Kopf der Schleife."
+  },
+  {
+    "question": "Welche Mehrfachverzweigung wird in Java verwendet?",
+    "options": {
+      "A": "if-else",
+      "B": "switch-case",
+      "C": "for-each",
+      "D": "while-do"
+    },
+    "correctAnswer": "B",
+    "explanation": "switch-case ist eine typische Mehrfachverzweigung in Java."
+  },
+  {
+    "question": "Welche Syntax beschreibt korrekt eine if-else-if-Verzweigung?",
+    "options": {
+      "A": "if(x > 10) { } else if(x > 5) { } else { }",
+      "B": "if x > 10 then else x > 5 else end",
+      "C": "switch(x) { if > 10: ... }",
+      "D": "if(x > 10) { } elseif x > 5 { } endif"
+    },
+    "correctAnswer": "A",
+    "explanation": "Die if-else-if-Kette prüft mehrere Bedingungen nacheinander."
+  },
+  {
+    "question": "Welche Kombination beschreibt korrekt drei Java-Datentypen mit passenden Beispielen?",
+    "options": {
+      "A": "int x = 5; double y = 3.14; String s = \"Hallo\";",
+      "B": "integer x = 5; float y = \"3.14\"; char s = 10;",
+      "C": "num x = 5; dec y = 3.14; text s = Hallo;",
+      "D": "var x = \"5\"; var y = true; var s = 3"
+    },
+    "correctAnswer": "A",
+    "explanation": "int, double und String sind grundlegende Java-Datentypen mit klaren Beispielen."
+  },
+  {
+    "question": "Welche Bedingung prüft korrekt, ob ein Wert zwischen 25 und 75 liegt?",
+    "options": {
+      "A": "if(x >= 25 && x <= 75)",
+      "B": "if(x > 25 || x < 75)",
+      "C": "if(x = 25 && 75)",
+      "D": "if(25 <= x >= 75)"
+    },
+    "correctAnswer": "A",
+    "explanation": "Mit && werden beide Bedingungen kombiniert: größer/gleich 25 und kleiner/gleich 75."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen Interpreter und Compiler?",
+    "options": {
+      "A": "Ein Compiler übersetzt komplett vor Ausführung, ein Interpreter Schritt für Schritt zur Laufzeit",
+      "B": "Ein Interpreter kompiliert den Code dauerhaft in eine EXE-Datei",
+      "C": "Beide führen Code nur im Browser aus",
+      "D": "Ein Compiler wird nur für JavaScript verwendet"
+    },
+    "correctAnswer": "A",
+    "explanation": "Compiler übersetzen den gesamten Code vorher, Interpreter arbeiten zeilenweise."
+  },
+  {
+    "question": "Wie lautet der richtige Befehl zum Kompilieren einer Java-Datei?",
+    "options": {
+      "A": "javac Datei.java",
+      "B": "java Datei.java",
+      "C": "compile Datei.java",
+      "D": "run Datei.java"
+    },
+    "correctAnswer": "A",
+    "explanation": "javac wird verwendet, um Java-Quellcode zu kompilieren."
+  },
+  {
+    "question": "Welche drei Vergleichsoperatoren sind in Java korrekt?",
+    "options": {
+      "A": "==, !=, <",
+      "B": "&&, ||, !",
+      "C": "= += -=",
+      "D": "int, double, String"
+    },
+    "correctAnswer": "A",
+    "explanation": "Vergleichsoperatoren prüfen Werte, z. B. Gleichheit oder Größe."
+  },
+  {
+    "question": "Was ist beim Benennen von Variablen und Methoden in Java zu beachten?",
+    "options": {
+      "A": "Namen dürfen nicht mit Zahlen beginnen und keine reservierten Wörter enthalten",
+      "B": "Namen müssen immer Großbuchstaben enthalten",
+      "C": "Namen dürfen beliebige Sonderzeichen enthalten",
+      "D": "Namen müssen immer mit einem Unterstrich beginnen"
+    },
+    "correctAnswer": "A",
+    "explanation": "Java-Identifiers dürfen keine Schlüsselwörter sein und nicht mit Zahlen beginnen."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen Array und ArrayList?",
+    "options": {
+      "A": "Arrays haben feste Größe, ArrayLists sind dynamisch veränderbar",
+      "B": "Arrays sind nur für Strings, ArrayLists nur für Zahlen",
+      "C": "ArrayLists haben feste Größe, Arrays sind dynamisch",
+      "D": "Beide sind identisch in ihrer Speicherstruktur"
+    },
+    "correctAnswer": "A",
+    "explanation": "Arrays sind statisch, ArrayLists können wachsen und schrumpfen."
+  },
+  {
+    "question": "Wie erhält man den letzten Eintrag eines Arrays korrekt?",
+    "options": {
+      "A": "array[array.length - 1]",
+      "B": "array[array.length + 1]",
+      "C": "array.last()",
+      "D": "array[length]"
+    },
+    "correctAnswer": "A",
+    "explanation": "Der letzte Index ist immer length - 1."
+  },
+  {
+    "question": "Welche zwei Arten von Kommentaren gibt es in Java?",
+    "options": {
+      "A": "// und /* */",
+      "B": "<!-- --> und ##",
+      "C": "# und /** */",
+      "D": "%% und //"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Java gibt es einzeilige und mehrzeilige Kommentare."
+  },
+  {
+    "question": "Welche logischen Operatoren werden in Java verwendet?",
+    "options": {
+      "A": "&& und ||",
+      "B": "== und !=",
+      "C": "< und >",
+      "D": "+ und -"
+    },
+    "correctAnswer": "A",
+    "explanation": "Logische Operatoren verbinden Bedingungen in booleschen Ausdrücken."
+  }
+]
