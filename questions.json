@@ -128,7 +128,7 @@
       "C": "Namen dürfen nicht mit Zahlen beginnen und keine reservierten Wörter enthalten",
       "D": "Namen müssen immer mit einem Unterstrich beginnen"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Java-Identifiers dürfen keine Schlüsselwörter sein und nicht mit Zahlen beginnen."
   },
   {
