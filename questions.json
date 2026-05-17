@@ -117,7 +117,7 @@
       "C": "= += -=",
       "D": "==, !=, <"
     },
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Vergleichsoperatoren prüfen Werte, z. B. Gleichheit oder Größe."
   },
   {
